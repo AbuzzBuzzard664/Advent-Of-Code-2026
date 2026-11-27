@@ -1,0 +1,3 @@
+# Ignore all files in inputs/, except sample files
+inputs/*
+!inputs/sample*.txt

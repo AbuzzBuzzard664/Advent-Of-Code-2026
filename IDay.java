@@ -1,8 +1,10 @@
-import java.util.*;
+import java.util.List;
 
 public interface IDay {
-    public void run();
-    public Number part_1();
-    public Number part_2();
-    public List<String> get_input();
+    Number part_1(String input);
+    Number part_2(String input);
+
+    default List<String> get_lines(String input) {
+        return input.lines().toList();
+    }
 }
