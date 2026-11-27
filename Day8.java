@@ -8,8 +8,16 @@ public class Day8 implements IDay{
 
     @Override
     public void run() {
-        System.out.println("Part 1: " + part_1());
-        System.out.println("Part 2: " + part_2());
+        try{
+            System.out.println("Part 1: " + part_1());
+        } catch (UnsupportedOperationException e) {
+            System.out.println("Part 1 not implemented yet");
+        }
+        try{
+            System.out.println("Part 2: " + part_2());
+        } catch (UnsupportedOperationException e) {
+            System.out.println("Part 2 not implemented yet");
+        }
     }
 
     @Override
